@@ -2,3 +2,4 @@ Py报错合集
 
 AttributeError: 'str' object has no attribute 'foramt' -----检查方法名是否拼错
 SyntaxError: invalid syntax -----检查语法，例如：是否少符号、大小写是否未区分、是否空格多余
+
