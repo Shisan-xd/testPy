@@ -1,0 +1,227 @@
+
+拉旺仔俱乐部小程序代码步骤(打包)： 
+	微信渠道：Github Pull - 终端进入hotkidclub-uniapp15.45.47文件夹 - 运行npm run build:mp-weixin
+	各渠道命令：npm run build:h5  |  build:mp-alipay  |  build:mp-taobao
+	正式服修改文件：/src/api/dev.js
+
+	修改地址：npm run dev:mp-weixin
+
+旺仔俱乐部APP审核前置条件：
+	跳转第三方的功能暂时关闭，
+		第三方包括：
+				微信登录
+				banner配置的跳转
+				会员互动-旺视频：小红书、bilibili、快手、抖音等…
+				积分商城商品兑换
+
+
+
+产品中心
+	产包码（生码网站：http://www.jsons.cn/barcode/）
+		6920616311113
+		6920766212803
+		6937608915839
+		6920616311045
+		6909995110586
+		6920616312738
+		6920616311083
+		6937608912906
+		6937608912913
+		6937608912920
+		6937608912968
+		6909995117189
+		6909995110326
+		6931958031614
+		306101015100    仙贝
+		6923167523004	鱼丝
+	产品中心有效日期码：Z20201102C1、Z20201102
+
+
+
+手机号：
+	验证码均为：1234
+	湘黔手机号：15096034470   accountId：17622082（测试服）	
+	小蕙手机号：18854823673   accountId：17709016（测试服）
+	佳智手机号：13584642531
+	雪平手机号：15001892179
+	建辉手机号：13526274216
+	育浩手机号：13107024116
+	徐俊手机号：13391070687
+	巧玉手机号：18530880282	还没有固定验证码
+	邓威手机号：15826499212
+	小熊手机号：17671425100
+	银行手机号：17634380268
+	贺鹏手机号：18439447866
+	小明手机号：17775289599
+	钱宇周手机号：13585798189		还没有固定验证码
+	测试手机号：15026884569
+	梓鋆手机号：15001862509	accountId：9120228（测试服）
+	宣宣手机号：13213787292
+	睿彧手机号：13161935790
+	锅哥手机号：15060819365
+	梦霞手机号：15736709693   accountId：14265025（测试服）积分剩余 832
+
+
+
+虚拟机号：（验证码服务端配）
+		17087330262
+		17087330260
+		17087330258
+		17087330257
+		17087330253
+		17087330252
+		16530741698
+		16530741698
+		17087330252
+		17087330253
+		17087330257
+		17087330258
+		17087330260
+		17087330262
+		16716582401
+		16726604303
+		17771934420
+		16726604304
+		16535700658
+		19965412404
+		16716582402
+
+
+
+优惠券
+	旺铺：
+		活动id:10085
+		券id:1030 1031 1032
+		旺铺链接：https://srv.hotkidceo.com/store/
+
+	天猫：
+		淘口令：2.0fu至本段内容￥eA28c53RKI2￥打開👉τao寶👈或掂击炼接 https://m.tb.cn/h.Vzk4SRm 至浏.览览.器【旺旺哎呦浪味海苔10g*6 原味辣味海苔脆海味办公室即食零食酥脆#
+		APP／淘宝链接:taoquan.taobao.com/coupon/unify_apply.htm?sellerId=1588913126&activityId=64162747e807489c944c33d27e4a3aa6
+		APP／淘宝h5链接：https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=1588913126&activityId=64162747e807489c944c33d27e4a3aa6
+		旺旺食品旗舰店活动券：
+			链接：https://market.m.taobao.com/app/cem-fe/benefit-exchange/benefit-exchange/index.html?source=InterestsDetail&activityId=1021016811038298
+			淘口令：9??￥2OwGctSQlp8￥打kaἲ??taӦ宝??或點几url链 https://m.tb.cn/h.4SR3m2B 至浏lằn器【会员活动专享券】
+
+	京东官方：
+		链接：http://coupon.m.jd.com/coupons/show.action?key=fd5422d0469244c2acf3e11da8fe0f45&roleId=45436018&to=wangwangshipin.jd.com
+		原始账号ID：gh_863747b5d292
+		AppID：wx8dedce62dba410e6
+		小程序跳转路径：pages/shop/shop
+
+	京东自营：
+		京东链接：https://item.jd.com/100001986010.html
+		原始账号ID：gh_863747b5d292
+		AppID：wx8dedce62dba410e6
+		小程序跳转路径：pages/index/index
+
+	代金券：
+		批次号：15405760、15405832、15405900、15549782
+		商户号 1281204501
+    	公众号ID
+    		原始ID : gh_0171fbd6721e
+    		AppId : wx160b97fc7a08acc3
+
+	主题门店：
+		门店id可以使用excel表批量制作，文件格式为：.xlsx，单元格格式为：文本
+
+	售货机：
+		门店id可以使用excel表批量制作，文件格式为：.xlsx，单元格格式为：文本
+
+	1067 贩卖机券
+	1066 主题门店券
+
+
+消息中心推送模版：
+	短信推送	
+		推送内容："亲爱的旺粉，旺旺祝您财旺、气旺、运道旺，旺上加旺~点击【 】领取福利哦！
+		跳转链接	http://h0w.co/q/dq	
+	APP push推送	
+		主标：【专属福利派送中~】
+		副标：恭喜您，您有一个专属旺旺福利还未领取哦！快来领取吧~"
+
+
+积分商城商品跳转链接：
+	口罩成人款：199积分+9.9元
+	链接：https://market.m.taobao.com/app/cem-fe/benefit-exchange/benefit-exchange/index.html?source=InterestsDetail&activityId=2158801
+
+	坚果牛奶：299积分+51元
+	https://market.m.taobao.com/app/cem-fe/benefit-exchange/benefit-exchange/index.html?source=InterestsDetail&activityId=2153942
+
+	仿真雪饼：99积分+19.9元
+	https://market.m.taobao.com/app/cem-fe/benefit-exchange/benefit-exchange/index.html?source=InterestsDetail&activityId=2157688
+
+	冻痴榴莲味：99积分+9.9元
+	https://market.m.taobao.com/app/cem-fe/benefit-exchange/benefit-exchange/index.html?source=InterestsDetail&activityId=2153351
+
+
+
+需求地址：
+	俱乐部:
+		蓝湖地址：https://lanhuapp.com/url/aWUnd		密码: 72ct
+		墨刀地址：
+			众筹活动页面_20210203：https://org.modao.cc/app/9e55c48348e8a728a0be4f081058595944feffd2?simulator_type=device&sticky
+			俱乐部改版：https://org.modao.cc/app/2c1bb35d6d0f1c80bbe7c7fb7e5b07c454a064f9?simulator_type=device&sticky#screen=skca83jp7g4npo0
+			0316_版本改动_登录&订单相关：https://org.modao.cc/app/1136a791fda6cc251309fe50c4c29cedbb5a7dc3?simulator_type=device&sticky#screen=sk7y7rn3rnb9iov
+			0914_更多会员互动：https://org.modao.cc/app/acbae1593665a265c4883de4c9d961a105422505?simulator_type=device&sticky#screen=skg5tlsil802unq
+			骨架屏：https://org.modao.cc/app/1018058b4995612457ea421036277f04f1076bfd?simulator_type=device&sticky#screen=skgirc9nyc1qe1q
+			神秘任务&积分兑换：https://org.modao.cc/app/5e97db542488e53ccd88e0b1259757e299584923?simulator_type=device&sticky#screen=skhk8l8x068iho3
+			1210_分享：https://org.modao.cc/app/0d74def2d10383240ccc49850b118fbcb50745b1?simulator_type=device&sticky#screen=skihdc2fpjx3340
+			新手引导：https://org.modao.cc/app/ecc922bfe46b53371889470e6209d64fea94ffe8?simulator_type=device&sticky#screen=skizopahx20rabr
+			分享示图：https://org.modao.cc/app/5e3c62cf961f81d982ea8b38d8f8508a88b4bd08?simulator_type=device&sticky#screen=skk2ih3tn7ebxc1
+			旺合影调整：https://org.modao.cc/app/e1d84e45ca7cf1f20b39efc02ec28fde36a61fa8?simulator_type=device&sticky#screen=skjwtmcnplsbicz
+			我的名片-员工版本：https://org.modao.cc/app/4156447fa5b191d9d762a239447b3da7595baad8?simulator_type=device&sticky
+			产品中心：https://org.modao.cc/app/c7d4700c4f8270398ef93e60c37589cd0d50a2c8?simulator_type=device&sticky
+			社区版块：https://org.modao.cc/app/27a69f33b222f63e3f794c26dc22f74e9f60ab3b?simulator_type=device&sticky#screen=sknptyxr3yfwob7
+
+	后台：
+		墨刀地址：
+			抽奖后台：https://org.modao.cc/app/18b948cbd72db2647573aab2cfcdf07be3e4521f#screen=sk4nh0a4bxggvci
+			抽奖后台_20200401：https://org.modao.cc/app/cb1901ce89aa23b0c7c122f5f5cdd4ebe583b6fa?simulator_type=device&sticky#screen=skiy5zxhrq4tz5h
+			抽奖后台_20200328：https://org.modao.cc/app/fa468fc1dc152537b1c6761f0cb9c1b24dc5a3af?simulator_type=device&sticky#screen=sk8bfd746zkiu6r
+			领券中心后台_20200327：https://org.modao.cc/app/f9a2ba9089d01e12ca1d0bcf0647e7422e9f4729?simulator_type=device&sticky#screen=sk89s6xlhhlfx87
+			广告中心后台_20200327：https://org.modao.cc/app/01202257b65377222da3007406fe1ae82611daa2?simulator_type=device&sticky#screen=sk99qouvxww5228
+			邦德小程序后台_20190617：https://org.modao.cc/app/26bb7de2a3a6ed7d17c3631638af2c50?simulator_type=device&sticky#screen=sFEEA857A681560735529405
+			会员积分后台-新：https://org.modao.cc/app/6d7dd5e562af74924d5eade41aad93b571d8d1d2?simulator_type=device&sticky#screen=sk3zl8j5ctgqg09
+			活动模版：https://org.modao.cc/app/14e7a7b8052b04f198dc7c6cb65f2ba5f84eb740?simulator_type=device&sticky#screen=skgu8163z6qky0m
+			众筹后台：https://org.modao.cc/app/c5c26a51e9b83e6322f810eedbf9deccbdf3743e?simulator_type=device&sticky#screen=skjmnjlvkrplu19
+
+	抽奖模版H5:
+		墨刀地址：
+			抽奖调整：https://org.modao.cc/app/d9b5b28081742ae86a6c938b151a19777f30ae6a?simulator_type=device&sticky#screen=skjnpwe1017hllf
+			抽奖H5模版 - 给开发：https://org.modao.cc/app/c6cf77d7c08e29c449f8b176603ed72caf111803?simulator_type=device&sticky=#screen=sk54yd9nn7ixndo
+		蓝湖地址：
+			https://lanhuapp.com/web/?code=0718L83U1pn1N21AXM0U13Fa3U18L83N&state=#/item/project/door?pid=39931050-8e63-418e-bd1d-ff1937276a79&type=share_board&teamId=9749fa23-7908-49c7-8fc4-a89b9b65d699&userId=48b86a82-3ffb-4d47-9282-ade98b240854&activeSectionId=&toName=board（没有密码）
+		腾讯地址：
+			https://docs.qq.com/doc/DQ3BnWkFkelpUWFlH
+
+	邦德：
+		蓝湖地址：https://lanhuapp.com/web/#/item/project/board?pid=feff933f-b786-4cf0-bf3b-f87d694aced4&teamId=d22765dc-5610-4ab0-b5fe-e78a553bef3a
+		墨刀地址：https://org.modao.cc/app/a7eddc185e6cd930721726bf9e56a7f4?simulator_type=device&sticky#screen=sA7F0AFF9281559723220764
+
+	招商加盟：
+		墨刀地址：
+			https://org.modao.cc/app/968d624a0aece020285a9162cae9299d6de5f4d0?simulator_type=device&sticky#screen=skb7zr01ymylp8e
+
+	2020H5项目:
+		墨刀地址：
+			2020511确认版：https://org.modao.cc/app/46e534b9f8383b52e51766aa258058b471b1bde3?simulator_type=device&sticky#screen=sk97unkazn35096
+			2020_春酒H5：https://org.modao.cc/app/b74f2da08392088bfc2462c2a3cfc07248c08c03#screen=s5890BEAEB51577430496078
+			2020_春酒流程：https://www.processon.com/view/link/5e14565be4b061a80c6b0d10（非墨刀地址）
+
+
+
+
+后台项目链接：
+	俱乐部后台：http://dev.hotkidclub.com/admin/enter/index.html#/home    账号密码：00326431 & cruley@5、00434544 & wxy@123456
+	抽奖后台：https://dev.hotkidclub.com/admin/lottery/#/login    账号密码：00326431 & cruley@5
+	消息中心：http://dev.hotkidclub.com/admin/new/#/home    账号密码：00326431 & cruley@5
+
+
+
+
+
+
+
+
+
+
