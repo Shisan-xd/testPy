@@ -1,5 +1,5 @@
 
-name = "zoie"
+name = "mary"
 news = f"Hello {name} , would you like to leam some Python tody?"
 
 
@@ -12,8 +12,12 @@ print (name.lower())  # 全部小写
 
 
 Name1 = "albert einstein"
-well_known_saying = f"{Name1} once said , \"a person who never made a mistake never tried anything new.\""
+well_known_saying = f"{Name1} once said ： \"a person who never made a mistake never tried anything new.\""
 print (well_known_saying.title())
 
 
-	
+#数组排序
+listt = [1,2,3]
+listo = ['b','c','d','a']
+print (listt)
+print (listo)
