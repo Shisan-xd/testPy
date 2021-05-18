@@ -1,4 +1,3 @@
-
 Python基础
 运算符
 	算数运算符：
@@ -33,9 +32,10 @@ Python基础
 	//=	取整除赋值运算符	c //= a 等效于 c = c // a
 
 	逻辑运算符：
-	and	x and y	布尔"与" - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值。	(a and b) 返回 20。
-	or	x or y	布尔"或" - 如果 x 是非 0，它返回 x 的计算值，否则它返回 y 的计算值。	(a or b) 返回 10。
-	not	not x	布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。	not(a and b) 返回 False
+	and	x and y	布尔"与" - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值。	（都真才真）
+	or	x or y	布尔"或" - 如果 x 是非 0，它返回 x 的计算值，否则它返回 y 的计算值。	（一真则真，都假则假）
+	not	not x	布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。（取反）
+
 
 
 
@@ -128,6 +128,8 @@ Python基础
 		else:
     		<执行4>
     if语句执行有个特点，它是从上往下判断，如果在某个判断上是True，把该判断对应的语句执行后，就忽略掉剩下的elif和else
+
+    注意:如果某些条件成立执行了相关的代码,那么其他的情況的代码解释器根本不会执行。
 
     再议input
     	读取用户输入
