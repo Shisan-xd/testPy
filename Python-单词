@@ -1,6 +1,7 @@
-打印、输入
+打印、输入、导入
 		print() 打印
 		input()	输入
+		import	导入
 字符串：
 		ord()函数获取字符的整数表示，例：print(ord('旺'))
 		chr()函数把编码转换为对应的字符，例：print(chr(25991))
@@ -24,6 +25,13 @@
 		list()	列表
 		tuple()	元组
 		eval()	原本的数据类型
+包名：
+		random	随机数	格式：random.randint(开始，结束)
+
+
+循环：
+		if…else…／if…elif…
+		whlie 循环
 
 
 
