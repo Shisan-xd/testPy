@@ -28,10 +28,14 @@
 包名：
 		random	随机数	格式：random.randint(开始，结束)
 
+条件语句：
+		if…else…
+		if…elif…
 
 循环：
-		if…else…／if…elif…
-		whlie 循环
+		whlie	循环
+		break	终止此循环（当某些条件成立）
+		continue	推出当前一次循环继而执行下一次循环代码
 
 
 
