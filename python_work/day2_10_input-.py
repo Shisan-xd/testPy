@@ -17,7 +17,7 @@ This is a temporary script file.
 
 """
 password = input('请输入密码：')
-print(f'您输入输入的密码是{password}')
+print(f'您输入输入的密码是{passord}')
 
 print(type(password))
 """

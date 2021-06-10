@@ -37,11 +37,6 @@ Python基础
 	not	not x	布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。（取反）
 
 
-
-
-
-
-
 数据类型和变量
 	数据类型：
 		整数
@@ -164,7 +159,9 @@ Python基础
     		sum = sum + n
     		n = n - 2
 		print(sum)
-条件成立了要执行的代码1
+	条件成立了要执行的代码1
+
+	break和comtinue是循环中满足一定条件退出循环的两种不同方式
 
 
 
