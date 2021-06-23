@@ -213,6 +213,21 @@
 
 	10）若因第三方原因或其他不可抗力原因导致活动延迟、中止、终止，主办方概不负责。
 
+提示文案：这个渠道不可以哦～
+弹窗文案：上限了哦～ 
+
+分享文案：
+		# 旺仔俱乐部十连抽 #
+		快来玩呀～ 惊喜好礼等着你
+
+
+提示字体颜色	#FF6347
+商品名称字体颜色	#D8BFD8
+奖品价值字体颜色	#CD7054
+奖品列表单排底色	#CD7054
+背景底色	#FFC1C1
+
+#FF6347#D8BFD8#CD7054#CD7054#FFC1C1
 
 众筹活动规则：
 	1.本活动时间：2021年5月13日00:00:00至2021年5月17日00:00:00，活动时间结束即活动截止；活动公布开奖结果时间：2021年5月17日12:00:00。
@@ -266,6 +281,8 @@
 			我的名片-员工版本：https://org.modao.cc/app/4156447fa5b191d9d762a239447b3da7595baad8?simulator_type=device&sticky
 			产品中心：https://org.modao.cc/app/c7d4700c4f8270398ef93e60c37589cd0d50a2c8?simulator_type=device&sticky
 			社区版块：https://org.modao.cc/app/27a69f33b222f63e3f794c26dc22f74e9f60ab3b?simulator_type=device&sticky#screen=sknptyxr3yfwob7
+			个人中心20210615:https://v6.modao.cc/app/e011c4f8fb8fa5acc52b7628c164915ac1afb146?simulator_type=device&sticky#screen=skpnhrho8jfv5i2
+			产品中心20210615:https://org.modao.cc/app/c7d4700c4f8270398ef93e60c37589cd0d50a2c8?simulator_type=outside_artboard&sticky#screen=skpxt3lir603i6d
 
 	后台：
 		墨刀地址：
@@ -309,11 +326,15 @@
 	抽奖后台：https://dev.hotkidclub.com/admin/lottery/#/login    账号密码：00326431 & cruley@5
 	消息中心：http://dev.hotkidclub.com/admin/new/#/home    账号密码：00326431 & cruley@5
 	俱乐部互动后台：http://www.hotkidclub.com/backend/index.html	账号密码：00300545 & PETER@2017
-
+	活动后台：
 
 H5项目链接：
 	俱乐部:	https://dev.hotkidclub.com/
 	21511:	https://dev.hotkidclub.com/cpn/video-answer/
+
+小程序后台链接：
+	微信MP：https://mp.weixin.qq.com/		wantwant511!
+
 
 
 
