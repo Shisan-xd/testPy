@@ -18,7 +18,7 @@ print (S_W1)
 A = " Python "
 print (A.rstrip()) #rstrip 踢除右边的空白
 print (A.lstrip()) #lstrip 剔除左边的空白
-print (A.strip()) #strio 剔除左右空白
+print (A.strip()) #strip 剔除左右空白
 
 
 # 

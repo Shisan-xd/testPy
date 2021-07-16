@@ -1,7 +1,4 @@
-
-拉旺仔俱乐部小程序代码步骤(打包)： 
-	微信渠道：Github Pull - 终端进入hotkidclub-uniapp15.45.47文件夹 - 运行npm run build:mp-weixin
-	各渠道命令：npm run build:h5  |  build:mp-alipay  |  build:mp-taobao
+拉旺仔俱乐部小程序代码步骤(打包)： 微信渠道：Github Pull - 终端进入hotkidclub-uniapp15.45.47文件夹 - 运行npm run build:mp-weixin 各渠道命令：npm run build:h5  |  build:mp-alipay  |  build:mp-taobao
 	正式服修改文件：/src/api/dev.js
 
 	修改地址：npm run dev:mp-weixin
@@ -109,6 +106,7 @@
 		旺铺链接：https://srv.hotkidceo.com/store/
 
 	天猫：
+		优惠券ID：
 		淘口令：2.0fu至本段内容￥eA28c53RKI2￥打開👉τao寶👈或掂击炼接 https://m.tb.cn/h.Vzk4SRm 至浏.览览.器【旺旺哎呦浪味海苔10g*6 原味辣味海苔脆海味办公室即食零食酥脆#
 		APP／淘宝链接:taoquan.taobao.com/coupon/unify_apply.htm?sellerId=1588913126&activityId=64162747e807489c944c33d27e4a3aa6
 		APP／淘宝h5链接：https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=1588913126&activityId=64162747e807489c944c33d27e4a3aa6
@@ -141,8 +139,13 @@
 	售货机：
 		门店id可以使用excel表批量制作，文件格式为：.xlsx，单元格格式为：文本
 
-	1067 贩卖机券
-	1066 主题门店券
+	贩卖机券		
+		1067
+		1117	-抽奖模版-7.31
+		
+	主题门店券	
+		1066	
+		1118	-抽奖模版-7.31
 
 
 消息中心推送模版：

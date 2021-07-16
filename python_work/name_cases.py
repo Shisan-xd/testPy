@@ -17,7 +17,7 @@ print (well_known_saying.title())
 
 
 #数组排序
-listt = [1,2,3]
+listt = [4,2,3]
 listo = ['b','c','d','a']
-print (listt)
-print (listo)
+print(listt)
+print(listo)
