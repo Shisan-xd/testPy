@@ -14,7 +14,6 @@
 
 mystr = 'Love is not a maybe thing. You know when you love someone'
 
-
 # 1 .find()
 # print(mystr.find('a'))  # 12
 # print(mystr.find('a', 13, 20))  #15
