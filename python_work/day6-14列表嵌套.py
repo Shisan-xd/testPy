@@ -1,0 +1,1 @@
+name_list = [['TOM', 'LILY', 'JACK', 'ROSE'], [], []]
