@@ -1,3 +1,4 @@
+
 """
 1、书写input
 	input（‘提示信息’）
@@ -7,9 +8,8 @@
 	2.3 input接收的数据类型都是字符串
 """
 
-
-# password = input('请输入密码：')
-# print(f'您输入输入的密码是{password}')
+password = input('请输入密码：')
+print(f'您输入输入的密码是{password}')
 
 # print(type(password))
 

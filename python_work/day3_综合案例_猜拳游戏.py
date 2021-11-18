@@ -7,7 +7,6 @@
     1.玩家赢
     2.平局
     3.电脑赢
-
 """
 
 import random
@@ -21,7 +20,7 @@ print(computer)
 
 # 2-判断输赢
 # 1.玩家赢
-if ((Player == 0)and(computer == 2)) or ((Player == 2)and(computer == 1)) or ((Player == 1)and(computer == 0)):
+if ((Player == 0) and (computer == 2)) or ((Player == 2) and (computer == 1)) or ((Player == 1) and (computer == 0)):
     print('玩家获胜')
 # 2.平局
 elif Player == computer:

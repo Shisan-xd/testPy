@@ -11,10 +11,10 @@
 
 
 
-# if……lese……
+# if……else……
 # input接收到的数据类型是str，需要用int()转换数据类型
 
-#age = int(input('请输入您的年龄：'))
+# age = int(input('请输入您的年龄：'))
 """
 	if age >= 18:
 	print(f'您的年龄是{age}，已经成年，可以上网')
@@ -30,7 +30,7 @@ print('系统关闭')"""
 	if 条件:
 		print（'条件成立执行的代码'）
 	elif：
-		pritn（'条件2成立执行的代码'）
+		print（'条件2成立执行的代码'）
 """
 
 
@@ -56,7 +56,7 @@ elif age > 60:
 	print(f'您输入的年龄是{age},退休咯～')
 """
 
-#条件新写法：
+# 条件新写法：
 age = int(input('请输入您的年龄：'))
 
 if age < 18:

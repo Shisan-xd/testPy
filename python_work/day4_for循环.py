@@ -9,5 +9,5 @@ for i in str1:  # i是str1的另一个命名
 
 for i in str1:
     if i == 's':
-        continue   #终止当前一次循环，继续下一次循环
+        continue  # 终止当前一次循环，继续下一次循环 # break
     print(i)
